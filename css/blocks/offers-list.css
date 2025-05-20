@@ -1,0 +1,23 @@
+.offers-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 280px 1fr;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.offers-list__item {
+  min-height: 280px;
+}
+
+
+.offers-list__item--tall {
+  grid-row: span 2;
+}
+
+.offers-list__item--wide {
+  grid-column: span 2;
+}
+
+

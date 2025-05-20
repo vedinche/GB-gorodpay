@@ -1,0 +1,39 @@
+.hero {
+  margin-bottom: 100px;
+  padding: 70px 0;
+  background: #f4f6fa;
+}
+
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: 620px 564px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__title {
+  margin: 0 0 26px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.hero__text {
+  margin: 0 0 48px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.hero__btns {
+  display: flex;
+  gap: 16px;
+}
+
+.hero__download {
+  padding: 18px;
+  width: 224px;
+}
+
+.hero__qr {
+  width: 56px;
+}

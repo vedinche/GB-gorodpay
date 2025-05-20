@@ -1,0 +1,10 @@
+.offers {
+  margin-bottom: 100px;
+}
+
+.offers__title {
+  margin: 0 0 40px 0;
+font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+}
